@@ -1,0 +1,33 @@
+* {
+
+    margin: 0px;
+
+    padding: 0px;
+
+}
+
+body {
+
+    background-color: orangered;
+
+}
+
+#container {
+
+    width: 80%;
+
+    margin: 0px auto;
+
+    border: 1px solid black;
+
+}
+
+*header {
+    height;
+    110px;
+    brackground-color;
+    white color: black text-align: center;
+    line-height: 100px;
+
+
+}
