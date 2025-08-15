@@ -1,33 +1,57 @@
-* {
-
+*{
     margin: 0px;
-
     padding: 0px;
-
 }
 
-body {
+body{
 
     background-color: orangered;
-
 }
 
-#container {
-
+#container{
     width: 80%;
-
-    margin: 0px auto;
-
+    margin:0px auto;
     border: 1px solid black;
 
 }
 
-*header {
-    height;
-    110px;
-    brackground-color;
-    white color: black text-align: center;
-    line-height: 100px;
+#header{
+height: 110px;
+background-color: black;
+color: white;
+text-align: center;
+line-height: 100px;
 
+}
 
+#menu{
+    background-color: white;
+    color: rgb(255, 238, 0);
+    height: 50px;
+    border-bottom: 5px solid;
+}
+
+#menu ul{
+    list-style: none;
+    text-decoration:none; 
+    margin: 0px auto;
+    margin-left: 25px;
+}
+
+#menu ul li{
+    line-height: 55px;
+    float: left;
+    border-right: 1px solid black;
+}
+
+#menu a{
+    display: block;
+    color: crimson;
+    text-decoration: nome;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#menu a:hover{
+    background: orangered;
 }
