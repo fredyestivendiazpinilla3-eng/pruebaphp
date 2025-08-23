@@ -5,7 +5,7 @@
 
 body{
 
-    background-color: orangered;
+    background-color: rgb(53, 48, 48);
 }
 
 #container{
@@ -16,7 +16,7 @@ body{
 }
 
 #header{
-height: 110px;
+height: 140px;
 background-color: black;
 color: white;
 text-align: center;
@@ -24,9 +24,21 @@ line-height: 100px;
 
 }
 
+#logo{
+    padding: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+#logo img{
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
 #menu{
     background-color: white;
-    color: rgb(255, 238, 0);
+    color: rgb(0, 102, 255);
     height: 50px;
     border-bottom: 5px solid;
 }
@@ -53,5 +65,5 @@ line-height: 100px;
 }
 
 #menu a:hover{
-    background: orangered;
+    background: rgb(255, 0, 0);
 }
